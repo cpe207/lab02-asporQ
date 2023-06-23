@@ -1,0 +1,32 @@
+body {
+  background-image: url(https://cdn.wallpapersafari.com/91/82/pX2ZFT.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+  font-family: "Bruno Ace SC", Sans-serif;
+  font-size: 30cap;
+}
+.textHeader {
+  background-color: rgb(37, 37, 37);
+  color: beige;
+  padding: 0%;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.name {
+  color: beige;
+  padding: 0%;
+  text-align: center;
+}
+.skill-container {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #5c5e5d;
+  padding: 0.5em;
+}
