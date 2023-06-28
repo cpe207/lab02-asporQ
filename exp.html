@@ -11,76 +11,123 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <title>POR Portfolio</title>
   </head>
   <body>
-    <h1 class="textHeader">MY PORTFOLIO</h1>
-    <p style="text-align: center">
-      <a href="index.html">home page</a> | <a href="exp.html">experience</a> |
-      <a href="contact.html">contact me</a>
-    </p>
+    <nav class="p-3 navbar navbar-dark bg-custom-2 ">
+      <h2 class="d-none d-sm-block align-content-center mx-5 gap-5 fw-bold my-1">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="exp.html">Experience</a>
+        <a class="navbar-brand" href="gallery.html">Gallery</a>
+        <a class="navbar-brand" href="contact.html">Contact</a>
+      </h2>
+      <button class="btn btn-light d-sm-none ms-auto">
+        <a href="allnav.html" class="text-black-50">          
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-menu-2"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M4 6l16 0"></path>
+          <path d="M4 12l16 0"></path>
+          <path d="M4 18l16 0"></path>
+        </svg></a>
 
-    <img
-      src="/picture/me.png"
-      alt="me"
-      width="170"
-      class="center ; rounded-3"
-    /><br />
-    <img
-      src="/picture/generatedtext.png"
-      alt="generatedtext"
-      width="400"
-      class="center"
-    />
+      </button>
+      </div>
 
-    <p class="subname" style="text-align: center">
-      I'm POR really nice to meet you here. Now I'm study in Chiangmai
-      University. It is my first website portfolio I hope it will give me a
-      great exp.
-    </p>
-    <br />
+    </nav>
 
-    <h2
-      style="
-        color: azure;
-        text-align: center;
-        background-color: rgb(37, 37, 37);
-      "
-    >
-      EXPERIENCE
-    </h2>
-
-    <div class="skill-container">
-      <h4 class="subname">☁️ project freshy</h4>
-      <p class="subname">
-        my first programming project was written by C++ . There is a Bank
-        program.
-      </p>
-      <img
-        src="/picture/Skrt Bank Corruption - Presentation — Mozilla Firefox 6_24_2023 12_41_24 AM (2).png"
-        alt="project"
-        class="center"
-        width="500"
-      />
+    <div class="d-flex justify-content-center py-3">
+      <img src="/picture/IMG_1484.png" height="50"/>
     </div>
-    <br />
-    <div class="skill-container">
-      <h3 class="subname">☁️ drawing</h3>
-      <p class="subname">
-        I usually drawing character sheet and create concept art for other
-        artist. Here is some picture of my art collection.
-      </p>
-      <img
-        src="/picture/S__1900548.jpg"
-        alt="drawing"
-        class="center"
-        width="380"
-      />
-    </div>
-    <br />
-    <div class="skill-container">
-      <h4 class="subname">☁️ tutor</h4>
-      <p class="subname">I'm teaching Python programming and Calculus</p>
+
+    <div style="max-width: 700px" class="mx-auto p-3 ">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="rounded-3">
+          <img
+            src="https://i.pinimg.com/564x/24/a9/82/24a9824d7a6a024e2a4f18920ce268f6.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-3 d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-bold fs-5">Math Competition</p>
+          <span class="text-muted">
+            Once I used to won the math competition like WMI - World Mathematics Invitationalby got a silver medal.
+          </span>
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="p-4">
+          <p class="fw-bold fs-5"> Project Freshy</p>
+          <span class="text-muted">
+            My first programming project was written by C++ . There is a Bank
+            program.
+          </span>
+        </div>
+        <div class="my-rounded-right">
+          <img
+            src="https://i.pinimg.com/564x/99/6a/18/996a18224db9320e01caa310683451ee.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="rounded-3">
+          <img
+            src="https://i.pinimg.com/736x/47/fa/bd/47fabd5e22f2c6738413d94eed8c7704.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-3 d-none d-sm-block"
+          />
+        </div>
+        <div class="p-3">
+          <p class="fw-bold fs-5"> Tutor</p>
+          <span class="text-muted">
+            I'm teaching Python programming and Calculus.
+          </span>
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="p-4">
+          <p class="fw-bold fs-5"> Crossword Competition</p>
+          <span class="text-muted">
+            I decide to practice crossword to improve my English skills and then I won in many competition.
+          </span>
+        </div>
+        <div class="my-rounded-right">
+          <img
+            src="https://i.pinimg.com/564x/8b/f4/bd/8bf4bde58ff9c53c5d724a3e40894835.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
